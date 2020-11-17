@@ -1,0 +1,21 @@
+print("Olá!! Bem vindo(a) ao Super Mercado do Ximbica, está tudo bem? Espero que sim!, bem agora eu irei lhe mostrar nossos setores, por favor escolha o de sua preferência.")
+print("   ")
+print(" 1. Higiene e Beleza\n","2. Lipeza\n","3. Bebidas\n","4. Mercearia\n","5. Laticinios\n","6. Refrigerados\n","7. Horti-fruti\n","8. Padaria\n","9. Açougue")
+print("   ")
+setor = int(input("decidiu qual Setor irá visitar primeiro? se sim, digite seu numero aqui: "))
+print("   ")
+produtos_1 = (" 1. Papel Higiênico\n 2. Shampoo\n 3. Condicionador\n 4. Maquiagens\n")
+produtos_2 = (" 1. Detergente\n  2. Desinfetante\n 3. Amaciante\n 4. Sabão em pó")
+produtos_3 = (" 1. Cervejas\n 2. Refrigerantes\n 3. Vinhos\n 4. Sucos Naturais")
+produtos_4 = (" 1. Serrote\n 2. Furadeira e Pregos\n 3. Serra Circular\n 4. Lixadeira")
+produtos_5 = (" 1. Leite\n 2. Legumes\n 3. Proteína\n 4. Grãos")
+produtos_6 = (" 1. Hamburguer\n 2. Comida Congelada\n 3. Nuggets\n 4. Massas Congeladas")
+produtos_7 = (" 1. Legumes\n 2. Verduras\n 3. Vegetais\n 4. Frutas")
+produtos_8 = (" 1. Pães\n 2. Doces\n 3. Frios\n 4. Bebidas quentes")
+produtos_9 = (" 1. Carne de Boi\n 2. Carne de Porco\n 3. Carne para Churrasco\n 4. Linguiça")
+
+for i in range(1,10):
+    if setor == i:
+        print("Aqui está os produtos do setor em que você escolheu, por favor, escolha o numero do seu produto")
+        print(produtos_i)
+        int(input("Coloque o Numero do seu produto aqui: "))
